@@ -21,7 +21,7 @@ It allows users to start, pause, reset, and record lap times with an easy-to-use
 ---
 
 ## 🎯 Demo
-[Live Demo]()  
+[Live Demo](https://sanjeev0048.github.io/Stop-clock/)  
 
 ---
 
