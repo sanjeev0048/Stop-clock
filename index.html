@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>STOPWATCH</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <div class="background-elements">
+        <div class="bg-shape shape1"></div>
+        <div class="bg-shape shape2"></div>
+        <div class="bg-shape shape3"></div>
+    </div>
+
+    <div class="container">
+        <div class="header">
+            <h1 class="title">STOPWATCH</h1>
+            <p>Interactive & User-Friendly Web Application</p>
+        </div>
+
+        <div class="stopwatch-display">
+            <div class="time-display" id="timeDisplay">00:00:00</div>
+            <div class="milliseconds" id="millisecondsDisplay">000</div>
+        </div>
+
+        <div class="controls">
+            <button class="btn start-btn" id="startBtn" onclick="startStopwatch()">Start</button>
+            <button class="btn pause-btn" id="pauseBtn" onclick="pauseStopwatch()" disabled>Pause</button>
+            <button class="btn lap-btn" id="lapBtn" onclick="recordLap()" disabled>Lap</button>
+            <button class="btn reset-btn" id="resetBtn" onclick="resetStopwatch()">Reset</button>
+        </div>
+
+        <div class="lap-times" id="lapTimes">
+            <h3>Lap Times</h3>
+        </div>
+
+        <div class="footer">
+            <p>SkillCraft Technology</p>
+        </div>
+    </div>
+
+    
+    <script src="script.js"></script>
+</body>
+</html>
+    
